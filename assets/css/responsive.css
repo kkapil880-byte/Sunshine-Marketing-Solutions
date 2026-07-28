@@ -1,0 +1,493 @@
+/*==================================================
+    SUNSHINE MARKETING SOLUTIONS
+    RESPONSIVE DESIGN - VERSION 1.0
+==================================================*/
+
+
+/*==================================================
+    TABLET AND SMALL LAPTOP
+==================================================*/
+
+@media (max-width: 992px) {
+
+    .header .container {
+
+        padding: 15px 0;
+
+    }
+
+
+    .logo h2 {
+
+        font-size: 22px;
+
+    }
+
+
+    .navbar ul {
+
+        gap: 18px;
+
+    }
+
+
+    .header-btn .btn-primary {
+
+        padding: 11px 18px;
+
+    }
+
+
+    .hero {
+
+        padding: 140px 0 80px;
+
+    }
+
+
+    .hero .container {
+
+        gap: 35px;
+
+    }
+
+
+    .hero-content h1 {
+
+        font-size: 42px;
+
+    }
+
+
+    .hero-content p {
+
+        font-size: 16px;
+
+    }
+
+
+    .section-title h2 {
+
+        font-size: 34px;
+
+    }
+
+
+    .cta h2 {
+
+        font-size: 36px;
+
+    }
+
+}
+
+
+/*==================================================
+    MOBILE AND SMALL TABLET
+==================================================*/
+
+@media (max-width: 768px) {
+
+    .header {
+
+        position: relative;
+
+    }
+
+
+    .header .container {
+
+        flex-direction: column;
+
+        gap: 15px;
+
+        padding: 18px 0;
+
+    }
+
+
+    .logo {
+
+        text-align: center;
+
+    }
+
+
+    .logo h2 {
+
+        font-size: 23px;
+
+    }
+
+
+    .navbar ul {
+
+        justify-content: center;
+
+        flex-wrap: wrap;
+
+        gap: 12px 20px;
+
+    }
+
+
+    .navbar a {
+
+        font-size: 14px;
+
+    }
+
+
+    .header-btn {
+
+        display: none;
+
+    }
+
+
+    .hero {
+
+        padding: 70px 0;
+
+    }
+
+
+    .hero .container {
+
+        flex-direction: column;
+
+        text-align: center;
+
+        gap: 45px;
+
+    }
+
+
+    .hero-content h1 {
+
+        font-size: 36px;
+
+    }
+
+
+    .hero-content p {
+
+        font-size: 16px;
+
+    }
+
+
+    .hero-buttons {
+
+        justify-content: center;
+
+    }
+
+
+    .btn-primary,
+
+    .btn-secondary {
+
+        padding: 12px 22px;
+
+    }
+
+
+    .hero-image img {
+
+        max-width: 420px;
+
+        margin: auto;
+
+    }
+
+
+    .about-preview,
+
+    .services,
+
+    .why-us,
+
+    .industries,
+
+    .cta,
+
+    .contact-preview {
+
+        padding: 70px 0;
+
+    }
+
+
+    .section-title {
+
+        margin-bottom: 40px;
+
+    }
+
+
+    .section-title h2 {
+
+        font-size: 30px;
+
+    }
+
+
+    .section-title p {
+
+        font-size: 16px;
+
+    }
+
+
+    .service-grid {
+
+        grid-template-columns: 1fr;
+
+        gap: 25px;
+
+        margin-top: 30px;
+
+    }
+
+
+    .service-card {
+
+        padding: 28px;
+
+    }
+
+
+    .service-card h3 {
+
+        font-size: 23px;
+
+    }
+
+
+    .why-grid {
+
+        grid-template-columns: 1fr;
+
+        margin-top: 30px;
+
+    }
+
+
+    .industry-grid {
+
+        grid-template-columns: repeat(2, 1fr);
+
+        gap: 15px;
+
+        margin-top: 30px;
+
+    }
+
+
+    .industry-grid div {
+
+        padding: 20px 12px;
+
+        font-size: 14px;
+
+    }
+
+
+    .cta h2 {
+
+        font-size: 31px;
+
+    }
+
+
+    .cta p {
+
+        font-size: 16px;
+
+    }
+
+
+    .contact-grid {
+
+        grid-template-columns: 1fr;
+
+        margin-top: 30px;
+
+    }
+
+
+    .footer {
+
+        padding: 60px 0 25px;
+
+    }
+
+
+    .footer-grid {
+
+        grid-template-columns: 1fr;
+
+        gap: 30px;
+
+    }
+
+}
+
+
+/*==================================================
+    SMALL MOBILE
+==================================================*/
+
+@media (max-width: 480px) {
+
+    .container {
+
+        width: 92%;
+
+    }
+
+
+    .logo h2 {
+
+        font-size: 19px;
+
+        line-height: 1.3;
+
+    }
+
+
+    .navbar ul {
+
+        gap: 10px 15px;
+
+    }
+
+
+    .navbar a {
+
+        font-size: 13px;
+
+    }
+
+
+    .hero {
+
+        padding: 55px 0;
+
+    }
+
+
+    .hero-content h1 {
+
+        font-size: 29px;
+
+        line-height: 1.25;
+
+    }
+
+
+    .hero-content p {
+
+        font-size: 15px;
+
+    }
+
+
+    .hero-buttons {
+
+        flex-direction: column;
+
+        align-items: center;
+
+    }
+
+
+    .btn-primary,
+
+    .btn-secondary {
+
+        width: 100%;
+
+        max-width: 280px;
+
+        margin-left: 0;
+
+        text-align: center;
+
+    }
+
+
+    .section-title h2 {
+
+        font-size: 27px;
+
+        line-height: 1.3;
+
+    }
+
+
+    .service-card {
+
+        padding: 23px;
+
+    }
+
+
+    .service-card h3 {
+
+        font-size: 21px;
+
+    }
+
+
+    .service-card ul li {
+
+        font-size: 14px;
+
+    }
+
+
+    .why-grid div {
+
+        padding: 20px;
+
+        font-size: 15px;
+
+    }
+
+
+    .industry-grid {
+
+        grid-template-columns: 1fr;
+
+    }
+
+
+    .cta h2 {
+
+        font-size: 27px;
+
+    }
+
+
+    .contact-box {
+
+        padding: 28px 20px;
+
+    }
+
+
+    #scrollTopBtn {
+
+        width: 44px;
+
+        height: 44px;
+
+        right: 15px;
+
+        bottom: 15px;
+
+    }
+
+}
