@@ -899,7 +899,8 @@ ul li{
 
 }
 
-.cta p{
+.cta p
+{
 
     max-width:850px;
 
@@ -911,6 +912,5 @@ ul li{
 
     margin-bottom:40px;
 
-    color:#f5f5f5;
-
+    color:#f5f5f5; 
 }
